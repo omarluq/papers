@@ -31,7 +31,7 @@ Quick note before we start, I'm using Redis for caching so this might not apply 
 5. We need to make sure our fresh Heroku server is running Ruby and Node for our build to work. Let's add them by running:
     ``` bash
     $ heroku buildpacks:add --index 1 heroku/nodejs
-    $ heroku buildpacks:add --index 2 heroku/nodejs
+    $ heroku buildpacks:add --index 2 heroku/ruby
     ```
 
 6. Let's confirm our buildpacks has been added by running:
